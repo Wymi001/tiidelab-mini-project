@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <title>Tiidelab mini-project</title>
+  </head>
+  <body>
+    <main class="container">
+      <section class="heading">
+        <h2>users table</h2>
+      </section>
+      <section class="search">
+        <input
+          type="text"
+          id="search"
+          placeholder="Search by Username" onkeyup="searchUsersByUsername()"
+          class="name-input"
+        />
+      </section>
+      <section class="users-list">
+        <ul id="user-list-wrap">
+          <!-- dynamic li tags from JS file -->
+        </ul>
+      </section>
+    </main>
+    <!-- JAVASCRIPT LINK -->
+    <script src="./index.js"></script>
+  </body>
+</html>
